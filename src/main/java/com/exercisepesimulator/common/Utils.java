@@ -79,4 +79,9 @@ public class Utils {
 
     return "https://www.acesso.gov.pt/jsp/loginRedirectForm.jsp";
   }
+
+  public static String getSimpleSimulatorUrl() {
+
+    return "https://poupaenergia.pt/area-reservada/#/simulador/simples";
+  }
 }
