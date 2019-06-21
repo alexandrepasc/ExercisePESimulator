@@ -84,4 +84,9 @@ public class Utils {
 
     return "https://poupaenergia.pt/area-reservada/#/simulador/simples";
   }
+
+  public static String getSimpleSimulatorFrameUrl() {
+
+    return "https://poupaenergia.pt/simulador_simples_only/?iframed#/";
+  }
 }
