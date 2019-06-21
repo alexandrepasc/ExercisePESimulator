@@ -57,5 +57,28 @@ public class SimpleSimulatorPage {
 
   public static By butNextStep2 = By.cssSelector("#buttons-simulator > button.sc-iAyFgw.egRaBp.sc-fjdhpX.fzWIcs");
 
+  public static By labelBillingTitle = By.cssSelector(
+      "#adene-simulador-simples > div > div.sc-iyvyFf.eAjCtQ > div.sc-jqCOkK.fixed-container.gkwKbM > div:nth-child(1) > div > h2");
+
+  public static By labelElectricMarketerTitle = By.cssSelector("#comerel > div > h2");
+
+  public static By selectElectricMarketer = By.cssSelector("#comerel > div > div > div");
+
+  public static By selectElectricMarketerAudax = By
+      .cssSelector("#comerel > div > div > div > div.sc-hqyNC.juFRDt.sc-kvZOFW.kIHzzN > div:nth-child(1)");
+
+  public static By labelElectricMarketerFeedback = By.cssSelector("#comerel > div > span");
+
+  public static By labelGasMarketerTitle = By.cssSelector("#comerg > div > h2");
+
+  public static By selectGasMarketer = By.cssSelector("#comerg > div > div > div");
+
+  public static By selectGasMarketerEdp = By
+      .cssSelector("#comerg > div > div > div > div.sc-hqyNC.juFRDt.sc-kvZOFW.kIHzzN > div:nth-child(2)");
+
+  public static By labelGasMarketerFeedback = By.cssSelector("#comerg > div > div > span");
+
   public static By butNextStepFinal = By.cssSelector("#buttons-simulator > button.sc-iAyFgw.egRaBp.sc-fjdhpX.fzWIcs");
+
+  public static By labelResultTitle = By.cssSelector("#results > div > h2");
 }

@@ -89,4 +89,9 @@ public class Utils {
 
     return "https://poupaenergia.pt/simulador_simples_only/?iframed#/";
   }
+
+  public static String getSimpleSimulatorResultUrl() {
+
+    return "https://poupaenergia.pt/simulador_simples_only/?iframed#/resultados";
+  }
 }
