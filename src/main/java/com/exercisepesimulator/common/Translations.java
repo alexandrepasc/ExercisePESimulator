@@ -163,13 +163,39 @@ public class Translations {
   }
 
   public static String labelRegisterBirthFeedback(Elements element)
-      throws Exception {
+    throws Exception {
 
     switch (getLanguage(element)) {
       case PT:
         return "Data em formato incorreto";
       case EN:
         return "Invalid date format";
+      default:
+        return null;
+    }
+  }
+  
+  public static String labelDistrictFeedback(Elements element)
+    throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Distrito é um campo obrigatório.";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelCountyFeedback(Elements element)
+      throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Concelho é um campo obrigatório.";
+      case EN:
+        return "";
       default:
         return null;
     }
