@@ -1,7 +1,6 @@
 package com.exercisepesimulator.um;
 
 import com.exercisepesimulator.common.Utils;
-import com.exercisepesimulator.common.XmlFile;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -54,23 +53,6 @@ public class UserImple {
 
     profile.setYearBirthDate(Utils.getRandomValue(1914, 2000));
     profile.setBirthDate(profile.getBirthDate().concat("/").concat(Integer.toString(profile.getYearBirthDate())));
-
-    return profile;
-  }
-
-  public static UserProfile getLoginData(UserProfile profile)
-    throws Exception {
-
-    String pathName = ClassLoader.getSystemClassLoader().getResource(".").getPath();
-    if (pathName.contains(":")) {
-      pathName = pathName.substring(1, pathName.lastIndexOf("/"));
-    }
-
-    String[] data = XmlFile.read(pathName, "config.xml");
-
-    profile.setName(data[0]);
-    profile.setMail(data[1]);
-    profile.setPassword(data[2]);
 
     return profile;
   }
