@@ -1,5 +1,11 @@
 # ExercisePESimulator
-
+To run the tests we need to install the Java 8 SDK and the Maven version 3.6.1. <br>
+The Selenium integration to Java is set by the pom.xml and the drivers are on the root of the project. <br>
+If the enviornement is set it can run on a Unix and Windows systems. <br>
+To execute in a IDE set the it to run as a TestNG. <br>
+In the command line run it with Maven: <br>
+mvn clean install <br>
+<br><br>
 For tests the user <b>test1</b> was created. <br>
 login: test1@mail.com <br>
 pwd: 123qweasd <br>
@@ -45,15 +51,15 @@ If none of the parameters are passed, by default it will run with Firefox and NO
 <b>browser:</b> firefox/chrome <br>
 <b>gui:</b> yes/no <br>
 <br>
-Examples <br>
-mvn clean install -Dbrowser=chrome <br>
-mvn clean install -Dgui=yes <br>
+Examples <br><br>
+mvn clean install -Dbrowser=chrome <br><br>
+mvn clean install -Dgui=yes <br><br>
 mvn clean install -browser=chrome -Dgui=yes <br>
 <br><br>
 <h3>Run Test or Suite</h3><br>
 <b>Run Suite (class):</b> <br>
-mvn clean install -Dtest=className <br>
+mvn clean install -Dtest=className <br><br>
 <b>Run Test (method):</b> <br>
-mvn clean install -Dtest=className#methodName <br>
+mvn clean install -Dtest=className#methodName <br><br>
 <b>Just compile and run no tests:</b> <br>
 mvn clean install -DskipTests <br>
