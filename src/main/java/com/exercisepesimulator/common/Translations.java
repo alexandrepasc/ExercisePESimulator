@@ -124,7 +124,7 @@ public class Translations {
   }
 
   public static String labelRegisterMailFeedback(Elements element)
-      throws Exception {
+    throws Exception {
 
     switch (getLanguage(element)) {
       case PT:
@@ -137,7 +137,7 @@ public class Translations {
   }
 
   public static String labelRegisterPasswordFeedback(Elements element)
-      throws Exception {
+    throws Exception {
 
     switch (getLanguage(element)) {
       case PT:
@@ -150,7 +150,7 @@ public class Translations {
   }
 
   public static String labelRegisterNifFeedback(Elements element)
-      throws Exception {
+    throws Exception {
 
     switch (getLanguage(element)) {
       case PT:
@@ -163,13 +163,91 @@ public class Translations {
   }
 
   public static String labelRegisterBirthFeedback(Elements element)
-      throws Exception {
+    throws Exception {
 
     switch (getLanguage(element)) {
       case PT:
         return "Data em formato incorreto";
       case EN:
         return "Invalid date format";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelDistrictFeedback(Elements element)
+    throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Distrito é um campo obrigatório.";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelCountyFeedback(Elements element)
+    throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Concelho é um campo obrigatório.";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelBillingTitle(Elements element)
+    throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Faturação";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelElectricMarketerFeedback(Elements element)
+    throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Comercializador é um campo obrigatório.";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelGasMarketerFeedback(Elements element)
+      throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Comercializador é um campo obrigatório.";
+      case EN:
+        return "";
+      default:
+        return null;
+    }
+  }
+
+  public static String labelResultTitle(Elements element)
+      throws Exception {
+
+    switch (getLanguage(element)) {
+      case PT:
+        return "Visualize os resultados da sua simulação";
+      case EN:
+        return "";
       default:
         return null;
     }

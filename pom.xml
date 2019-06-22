@@ -44,6 +44,9 @@
                     <systemPropertyVariables>
                         <browser>${browser}</browser>
                         <gui>${gui}</gui>
+                        <user.name>test1</user.name>
+                        <user.mail>test1@mail.com</user.mail>
+                        <user.pwd>123qweasd</user.pwd>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

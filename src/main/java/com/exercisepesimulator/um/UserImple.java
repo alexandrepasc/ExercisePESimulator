@@ -1,7 +1,6 @@
 package com.exercisepesimulator.um;
 
 import com.exercisepesimulator.common.Utils;
-import com.exercisepesimulator.um.UserProfile;
 
 import java.util.Arrays;
 import java.util.Collections;

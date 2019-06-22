@@ -2,6 +2,8 @@ package com.exercisepesimulator.um;
 
 public class UserProfile {
 
+  private String name;
+
   private String mail;
 
   private String password;
@@ -22,6 +24,14 @@ public class UserProfile {
   private String phone;
 
   private int salt;
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
 
   public String getMail() {
     return mail;
